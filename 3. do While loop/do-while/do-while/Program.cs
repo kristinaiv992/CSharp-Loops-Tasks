@@ -48,9 +48,62 @@ namespace do_while
             Console.WriteLine($"From your {numbers} numbers {counterforones} have a residue of 1 while dividing with 3");
             Console.WriteLine($"From your {numbers} numbers {counterforones} have a residue of 2 while dividing with 3");
             
-            //---------------Task 2: (DO WHILE) -------------------------------//
+            //---------------Task 2: (DO WHILE) the same task from folder switch solved with do while -------------------------------//
             
+                     int totalCost = 0;
+            string decision = string.Empty;
+          
+            do {
+
+                int order =-1;
+
+                do
+                {
+                    Console.WriteLine(" Press 1,2 or 3 for coffee size");
+                    Console.WriteLine(" (1) small coffee =1 usd || (2) Medium coffee = 2usd || (3) Large coffee = 3usd");
+                    order = int.Parse(Console.ReadLine());
+                    //string userChoice = Console.ReadLine().ToUpper();
+
+                    switch (order)
+                    {
+                        case 1:
+                            Console.WriteLine(" Order: {0} You ordered a small coffee", order);
+                            totalCost += 1;
+                            break;
+                        case 2:
+                            Console.WriteLine(" Order: {0} You ordered a medium coffee", order);
+                            totalCost += 2;
+                            break;
+                        case 3:
+                            Console.WriteLine(" Order: {0} You ordered a large coffee", order);
+                            totalCost += 3;
+                            break;
+                        default:
+                            Console.WriteLine(" Order: {0} You order is invalid", order);
+                            break;
+                    }
+                }
+                while (order != 1 && order != 2 && order != 3);
+
+
+                do
+                {
+                    Console.WriteLine("Do you want to buy another coffee? Press YES/NO");
+                    decision = Console.ReadLine().ToUpper();
+
+                    if (decision != "YES" && decision != "NO")
+                    {
+                        Console.WriteLine("Your choice {0} is not apropriate pease try again", decision);
+                    }
+
+                }
+                    while (decision != "YES" && decision != "NO") ;
+            }
+            while (decision.ToUpper() != "NO");
             
+
+                Console.WriteLine("Thank you for shopping with us have a nice day!");
+                Console.WriteLine($"Your total bill is {totalCost} usd");
             
             
             
