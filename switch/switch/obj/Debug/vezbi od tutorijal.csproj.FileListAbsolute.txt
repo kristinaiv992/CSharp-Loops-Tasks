@@ -1,0 +1,7 @@
+C:\Users\kate_\Desktop\C#\vezbi od tutorijali\vezbi od tutorijal\vezbi od tutorijal\bin\Debug\vezbi od tutorijal.exe.config
+C:\Users\kate_\Desktop\C#\vezbi od tutorijali\vezbi od tutorijal\vezbi od tutorijal\bin\Debug\vezbi od tutorijal.exe
+C:\Users\kate_\Desktop\C#\vezbi od tutorijali\vezbi od tutorijal\vezbi od tutorijal\bin\Debug\vezbi od tutorijal.pdb
+C:\Users\kate_\Desktop\C#\vezbi od tutorijali\vezbi od tutorijal\vezbi od tutorijal\obj\Debug\vezbi od tutorijal.csprojAssemblyReference.cache
+C:\Users\kate_\Desktop\C#\vezbi od tutorijali\vezbi od tutorijal\vezbi od tutorijal\obj\Debug\vezbi od tutorijal.csproj.CoreCompileInputs.cache
+C:\Users\kate_\Desktop\C#\vezbi od tutorijali\vezbi od tutorijal\vezbi od tutorijal\obj\Debug\vezbi od tutorijal.exe
+C:\Users\kate_\Desktop\C#\vezbi od tutorijali\vezbi od tutorijal\vezbi od tutorijal\obj\Debug\vezbi od tutorijal.pdb
