@@ -7,3 +7,6 @@ There are four types of loops in C# (Csharp) : </br>
 <p>:two: For Loops </p>
 <p>:three: Do While Loops </p>
 <p>:four: Foreach Loops </p>
+
+Bonus:
+<p>:five: Switch </p>
