@@ -136,6 +136,41 @@ namespace do_while
             }
             while (choice == "YES");
             
+            //---------------Task 3: (DO WHILE) -------------------------------//
+                        bool stop = false;
+            Console.Write("Enter a number from 0 -24?");
+
+            do
+            {
+                Console.Write("Enter a number from 0 -24?");
+                int hour = int.Parse(Console.ReadLine());
+
+                if (hour > 0 && hour < 12)
+                {
+                    Console.WriteLine("It's morning");
+
+                }
+                else if (hour >= 12 && hour < 18)
+                {
+                    Console.WriteLine("It's afternoon");
+                }
+                else
+                {
+                    Console.WriteLine("It's evening");
+                }
+
+                Console.Write("Do you want to enter a number again? Y/n");
+                int answer = Char.Parse(Console.ReadLine());
+                if (answer == 'n' || answer == 'N')
+                {
+                    stop = true;
+                    break;
+                }
+            }
+            while (stop == false);
+            Console.ReadLine();
+                       
+            
         }
     }
 }
