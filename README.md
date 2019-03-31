@@ -12,42 +12,47 @@ Bonus:
 <p>:five: Switch </p>
 
 <hr>
-for loop:
-*Count all the even numbers from 1 to 100*
-Ex 1:
-  for (int i = 1; i <= 100; i++)
+for loop:</br>
+*Count all the even numbers from 1 to 100*</br>
+Ex 1:</br>
+
+    for (int i = 1; i <= 100; i++)
             {
                 if (i % 2 == 0)
                 {
                     Console.Write(i + " ");
                 }
             }
- Ex 2:         
-  for (int i=2; i<=100; i = i + 2)
+ Ex 2:</br>
+  
+    for (int i=2; i<=100; i = i + 2)
             {
                 Console.Write(i + " ");
             }
-do while:
-Ex 1:
-*Count all the even numbers from 1 to 100*
- var i = 2;
+do while:</br>
+Ex 1:</br>
+*Count all the even numbers from 1 to 100*</br>
+
+     var i = 2;
             do
             {
                 Console.Write(i + " ");
                 i=i+2;
             }
             while (i <= 100);
-Ex2:
-*Enter a message until the user enters the correct input*
- do
+Ex2:</br>
+*Enter a message until the user enters the correct input*</br>
+            
+            do
             {
                 Console.WriteLine("Please enter your username?");
             }
             while (Console.ReadLine().ToLower() != "kristina");
- while:
- *Count all the even numbers from 1 to 100*
+ while:</br>
+ *Count all the even numbers from 1 to 100*</br>
  Ex 1:
- int i = 2;
+ 
+    int i = 2;
            while( i<=100){
                 if(i%2 == 0)
                 {
@@ -55,8 +60,8 @@ Ex2:
                 }
                 i++;
             }
-Ex2:
-*Enter a message until the user enters the correct input*
+Ex2:</br>
+*Enter a message until the user enters the correct input*</br>
             
             Console.WriteLine("Please enter your username?");
             while (Console.ReadLine().ToLower() != "kristina")
